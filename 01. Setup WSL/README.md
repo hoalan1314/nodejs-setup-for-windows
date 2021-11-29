@@ -1,4 +1,4 @@
-# 01. Setup WSL
+# Setup WSL
 
 1. Open `PowerShell` as an administrator
 
