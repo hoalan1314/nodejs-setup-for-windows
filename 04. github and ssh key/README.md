@@ -20,3 +20,8 @@ $ cat ~/.ssh/id_rsa.pub
 8. 看見以下畫面即完成
 
 ![image](https://user-images.githubusercontent.com/37486266/144425967-341f24a6-48f9-412c-a98d-25370c850b4f.png)
+
+## Github預設branch
+1. 在`Settings > Repositories`
+2. `Repository default branch`內將`main`改為`master`
+3. 按`Update`
