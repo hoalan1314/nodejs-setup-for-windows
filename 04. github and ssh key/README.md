@@ -1,27 +1,27 @@
-# Github與ssh key
+# Github and ssh key
 
 ## Github
-在[Github](https://github.com/)開設account
+Create an account in [Github](https://github.com/)
 
 ## SSH key
-1. 在ubuntu terminal輸入以下指令創建ssh key ([?](https://codecharms.me/posts/security-ssh))
+1. Input the following command to ubuntu terminal to genrrate ssh key ([?](https://codecharms.me/posts/security-ssh))
 ```
 $ ssh-keygen
 ```
-2. 並按下數下Enter使用預設數值
-3. 複制public key
+2. Press Enter few times to use default setting
+3. copy public key
 ```
 $ cat ~/.ssh/id_rsa.pub
 ```
-4. 在github內的`Settings > SSH and GPG keys`內按`New SSH Key`
-5. 輸入`Title`(如`my Ubuntu`)並貼上public key
-6. 按`Add SSH Key`
-7. 輸入密碼
-8. 看見以下畫面即完成
+4. Go to github, `Settings > SSH and GPG keys`, and click `New SSH Key`
+5. Input some `Title`(eg. `my Ubuntu`) and paste public key
+6. Click `Add SSH Key`
+7. Input password
+8. Succses when you can see the following
 
 ![image](https://user-images.githubusercontent.com/37486266/144425967-341f24a6-48f9-412c-a98d-25370c850b4f.png)
 
-## Github預設branch
-1. 在`Settings > Repositories`
-2. `Repository default branch`內將`main`改為`master`
-3. 按`Update`
+## Github default branch
+1. Go to `Settings > Repositories`
+2. Under `Repository default branch` change `main` to `master`
+3. Click `Update`
