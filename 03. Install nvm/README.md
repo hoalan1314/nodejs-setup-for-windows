@@ -15,5 +15,5 @@ export NVM_DIR="$HOME/.nvm"
 6. Paste step `4`
 7. Run `ctrl + x`, `y`, `Enter` to save
 8. Run `source ~/.bash_profile` ([?](https://stackoverflow.com/questions/4608187/how-to-reload-bash-profile-from-the-command-line))
-9. Run `nvm install 12`
+9. Run `nvm install 16` to install [current LTS version of nodejs](https://nodejs.org/en/about/releases/)
 10. Run `node -v` to verify node version
